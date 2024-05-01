@@ -58,5 +58,4 @@ echo '</tbody></table></div>
   </body>
 </html>';
 }
-
 ?>
