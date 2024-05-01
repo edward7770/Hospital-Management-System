@@ -4,7 +4,6 @@ include('func.php');
 include('newfunc.php');
 $con=mysqli_connect("localhost","root","","myhmsdb");
 
-
   $pid = $_SESSION['pid'];
   $username = $_SESSION['username'];
   $email = $_SESSION['email'];
