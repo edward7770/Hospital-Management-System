@@ -12,27 +12,6 @@ if(isset($_GET['cancel']))
     }
   }
 
-  // if(isset($_GET['prescribe'])){
-    
-  //   $pid = $_GET['pid'];
-  //   $ID = $_GET['ID'];
-  //   $appdate = $_GET['appdate'];
-  //   $apptime = $_GET['apptime'];
-  //   $disease = $_GET['disease'];
-  //   $allergy = $_GET['allergy'];
-  //   $prescription = $_GET['prescription'];
-  //   $query=mysqli_query($con,"insert into prestb(doctor,pid,ID,appdate,apptime,disease,allergy,prescription) values ('$doctor',$pid,$ID,'$appdate','$apptime','$disease','$allergy','$prescription');");
-  //   if($query)
-  //   {
-  //     echo "<script>alert('Prescribed successfully!');</script>";
-  //   }
-  //   else{
-  //     echo "<script>alert('Unable to process your request. Try again!');</script>";
-  //   }
-  // }
-
-
-?>
 <html lang="en">
   <head>
 
