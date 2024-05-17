@@ -33,8 +33,6 @@ if(isset($_POST['doctor_search_submit']))
     </tr>
   </thead>
   <tbody>";
-
-	// while ($row=mysqli_fetch_array($result)){
 		    $username = $row['username'];
         $password = $row['password'];
         $email = $row['email'];
