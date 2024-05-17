@@ -10,8 +10,8 @@
 include("newfunc.php");
 if(isset($_POST['mes_search_submit']))
 {
-	$contact=$_POST['mes_contact'];
-	$query = "select * from contact where contact= '$contact'";
+$contact=$_POST['mes_contact'];
+$query = "select * from contact where contact= '$contact'";
   $result = mysqli_query($con,$query);
   $row=mysqli_fetch_array($result);
   if($row['name']=="" & $row['email']=="" & $row['contact']=="" & $row['message']==""){
@@ -32,8 +32,6 @@ if(isset($_POST['mes_search_submit']))
       </tr>
     </thead>
     <tbody>";
-  
-    
           $name = $row['name'];
           $email = $row['email'];
           $contact = $row['contact'];
@@ -48,7 +46,6 @@ if(isset($_POST['mes_search_submit']))
     echo "</tbody></table><center><a href='admin-panel1.php' class='btn btn-light'>Back to your Dashboard</a></div></center></div></div></div>";
   }
   }
-	
 ?>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
