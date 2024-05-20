@@ -10,7 +10,7 @@
 include("newfunc.php");
 if(isset($_POST['patient_search_submit']))
 {
-	$contact=$_POST['patient_contact'];
+$contact=$_POST['patient_contact'];
 	$query = "select * from patreg where contact= '$contact'";
   $result = mysqli_query($con,$query);
   $row=mysqli_fetch_array($result);
