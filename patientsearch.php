@@ -33,8 +33,6 @@ if(isset($_POST['patient_search_submit']))
     </tr>
   </thead>
   <tbody>";
-
-	
 		    $fname = $row['fname'];
         $lname = $row['lname'];
         $email = $row['email'];
