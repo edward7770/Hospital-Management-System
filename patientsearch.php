@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-<?php
+<?php  
 include("newfunc.php");
 if(isset($_POST['patient_search_submit']))
 {
@@ -30,7 +30,7 @@ $contact=$_POST['patient_contact'];
       <th scope='col'>Email</th>
       <th scope='col'>Contact</th>
       <th scope='col'>Password</th>
-    </tr>
+    </tr> 
   </thead>
   <tbody>";
 		    $fname = $row['fname'];
