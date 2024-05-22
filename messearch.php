@@ -13,11 +13,11 @@ if(isset($_POST['mes_search_submit']))
 $contact=$_POST['mes_contact'];
 $query = "select * from contact where contact= '$contact'";
   $result = mysqli_query($con,$query);
-  $row=mysqli_fetch_array($result);
+  $row=mysqli_fetch_array($result)
   if($row['name']=="" & $row['email']=="" & $row['contact']=="" & $row['message']==""){
     echo "<script> alert('No entries found! Please enter valid details'); 
           window.location.href = 'admin-panel1.php#list-doc';</script>";
-  } 
+  }
   else {
     echo "<div class='container-fluid' style='margin-top:50px;'>
     <div class='card'>
