@@ -16,9 +16,6 @@ $pid = $_GET['pid'];
   $appdate = $_GET['appdate'];
   $apptime = $_GET['apptime'];
 }
-
-
-
 if(isset($_POST['prescribe']) && isset($_POST['pid']) && isset($_POST['ID']) && isset($_POST['appdate']) && isset($_POST['apptime']) && isset($_POST['lname']) && isset($_POST['fname'])){
   $appdate = $_POST['appdate'];
   $apptime = $_POST['apptime'];
