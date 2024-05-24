@@ -11,7 +11,6 @@ $con=mysqli_connect("localhost","root","","myhmsdb");
   $gender = $_SESSION['gender'];
   $lname = $_SESSION['lname'];
   $contact = $_SESSION['contact'];
-
 if(isset($_POST['app-submit']))
 {
   $pid = $_SESSION['pid'];
